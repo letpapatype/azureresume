@@ -101,19 +101,26 @@
                Terraform, provisioning resources on both AWS and Azure. Also carry experience with Containers using
                Docker, as well as Orchestrations with Kubernetes using EKS and AKS. My newly launched blog, <a
                   href="https://jovansbookstore.com">"Up in the Clouds..."</a>
-               is managed on AWS Lightsail.
-               This fully managed Wordpress blog encorporates a couple AWS services that include an Elastic IP, with a
-               custom DNS (Route53), pointing to a CDN with CloudFront for a secure connection. <b>While I lack on the
-                  job experience, my websites, partnered with my blog, will help illustrate the skills that I do
-                  have.</b>
+               is managed on AWS Lightsail with a
+               custom DNS (Route53), pointing to a CDN with CloudFront for a secure connection. The email address on
+               both
+               this website, and my blog were created with Amazon WorkMail, pointing to the same DNS as the blog.
 
 
                </br>
                </br>
                I built this page with the guidance of the <span><a
                      href="https://github.com/madebygps/cgc-azure-resume">Cloud Guru
-                     Azure Resume Challenge.</a> I made some revisions to this homepage, the operations of this page are
-                  more imporatant than the aesthetics at this point.</a></span>
+                     Azure Resume Challenge.</a> This was a great way to pull together a lot of services I've read
+                  about, or labbed with.
+                  This website is built on Azure, with a Static Site via Blob Storage, a CosmosDB that uses Azure
+                  Funtions to count the visitors
+                  (HTTP requests) and display with simple Javascript code. My twist was using a Cloudflare DNS, with
+                  managed SSL Certification and CDN.
+                  This websites also set up with a CI/CD pipeline with GitHub Actions. The front end updates the Blob
+                  index.html, and then Purges the Cache in Cloudflare
+                  for immediate updating. Any backend revision is tested before deployment to ensure the math calculates
+                  properly. </a></span>
 
 
          </div> <!-- end .main-col -->
