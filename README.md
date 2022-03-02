@@ -1,3 +1,6 @@
+![Frontend workflow](https://https//github.com/letpapatype/azureresume/actions/workflows/backend.main.yaml/badge.svg)
+![Backend workflow](https://https://github.com/letpapatype/azureresume/blob/main/.github/workflows/backend.main.yaml/badge.svg)
+
 PHASE 1 - Aesthetics - FrontEnd
 - First things first was updating the aesthetics.
   While I don't have a great desire to  guy, so i left the format and added my
@@ -5,7 +8,7 @@ PHASE 1 - Aesthetics - FrontEnd
 - Next, wrote main.js that will become the element the element that displays the visit counter
 
 PHASE 2 - Engineer the Backend
-- Deply a new CosmosDB Serverless DB
+- Deploy a new CosmosDB Serverless DB
 - serverless event driven code - binding connects resources to .NET3 functions
 - test run
 ```func host start```
@@ -27,5 +30,4 @@ PHASE 3 - Automate all updates
 - For the backend, create a unit test for the Function using ```dotnet new xunit``` 
 - Packages needed ```dotnet add package Microsoft.AspNetCore.Mvc```
 - Set the path for the test to reference ```dotnet add reference ../api/api.csproj```
-- The TestCounter.cs simply sets the count variable to 2, makes an HTTP request, and confirms the new count is 3
-- global.json version specifier
+- After modifying the SDK to the proper version, the TestCounter.cs simply sets the count variable to 2, makes an HTTP request, and confirms the new count is 3
