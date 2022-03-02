@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 })
 // the event of the page being loaded is the trigger to run getVisitCount 
 
-const functionApi = '';
+const functionApi = 'http://localhost:7071/api/GetResumeCounter';
 // this script is unsed to pull data from the CosmosDB API and return the number on the website.
 
 const getVisitCount = () => {
