@@ -28,3 +28,4 @@ PHASE 3 - Automate all updates
 - Packages needed ```dotnet add package Microsoft.AspNetCore.Mvc```
 - Set the path for the test to reference ```dotnet add reference ../api/api.csproj```
 - The TestCounter.cs simply sets the count variable to 2, makes an HTTP request, and confirms the new count is 3
+- global.json version specifier
