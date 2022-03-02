@@ -1,6 +1,3 @@
-![Frontend workflow](https://https//github.com/letpapatype/azureresume/actions/workflows/backend.main.yaml/badge.svg)
-![Backend workflow](https://https://github.com/letpapatype/azureresume/blob/main/.github/workflows/backend.main.yaml/badge.svg)
-
 PHASE 1 - Aesthetics - FrontEnd
 - First things first was updating the aesthetics.
   While I don't have a great desire to  guy, so i left the format and added my
