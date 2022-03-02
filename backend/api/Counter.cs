@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace Company.Function // matches the namespace
+namespace Company.Function // 
 {
     public class Counter
     {
